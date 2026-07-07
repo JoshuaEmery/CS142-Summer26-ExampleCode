@@ -15,24 +15,24 @@ Code is added throughout the quarter as we cover each topic in class.
 
 ### 1. Office Hours
 
-Office hours are held **Tuesdays before class from 12:30pm to 1:30pm** in Building 16 Room 206.
+I will be conducting office hours Friday mornings via Zoom @ 9AM 
+
+https://rtcedu.zoom.us/my/joshuaemery?pwd=Tnl1dXo2K0FVek5LUmY0bEk3Z2k5dz09Links to an external site.
 
 ### 2. Tutoring
 
-**SEM Tutoring Center** — Building 19 Room 22 (south end of building 19)
+Science, Engineering & Math Tutoring Center (SEMTC)
 
-| Day               | Hours                             |
-| ----------------- | --------------------------------- |
-| Monday – Thursday | 9:00am – 5:00pm                   |
-| Friday            | 9:00am – 3:00pm                   |
-| Weekends          | Closed (online options available) |
+In-person drop-in and appointment tutoring for SEM courses.
 
-**SEMTC Satellite — MESA Center, Building 15**
 
-| Day               | Hours           |
-| ----------------- | --------------- |
-| Monday – Thursday | 9:00am – 7:00pm |
-| Friday            | 9:00am – 3:00pm |
+Hours: Monday – Thursday from 10:00am-5:00pm (CLOSED Friday – Sunday)
+
+
+Location: Building 19 Room 22
+
+
+To make an appointment: Call 253-566-5145, email SEMtutoring@tacomacc.edu, or stop by our center
 
 ### 3. Contact
 
