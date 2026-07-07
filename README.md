@@ -1,4 +1,4 @@
-# CS 142 — Spring 2026 Example Code Repository
+# CS 142 — Summer 2026 Example Code Repository
 
 ![Tacoma Community College](logo.png)
 
@@ -8,7 +8,7 @@ Code is added throughout the quarter as we cover each topic in class.
 
 ---
 
-**Class Time:** Tuesdays and Thursdays 1:30pm – 3:30pm  
+**Class Time:** Tuesdays and Thursdays 10:00am – 12:30pm  
 **Class Location:** Building 16 Room 110
 
 ## Resources for Help
@@ -34,7 +34,7 @@ Office hours are held **Tuesdays before class from 12:30pm to 1:30pm** in Buildi
 | Monday – Thursday | 9:00am – 7:00pm |
 | Friday            | 9:00am – 3:00pm |
 
-### 3. Email
+### 3. Contact
 
 Contact me via Canvas message. I will respond within 24 hours Mon–Thurs. I check messages over the weekend but cannot guarantee a 24-hour response.
 
