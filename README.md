@@ -17,7 +17,7 @@ Code is added throughout the quarter as we cover each topic in class.
 
 I will be conducting office hours Friday mornings via Zoom @ 9AM 
 
-https://rtcedu.zoom.us/my/joshuaemery?pwd=Tnl1dXo2K0FVek5LUmY0bEk3Z2k5dz09Links to an external site.
+https://rtcedu.zoom.us/my/joshuaemery?pwd=Tnl1dXo2K0FVek5LUmY0bEk3Z2k5dz09
 
 ### 2. Tutoring
 
