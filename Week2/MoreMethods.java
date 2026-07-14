@@ -19,10 +19,53 @@ public class MoreMethods {
 		//of the second, returns the result as a double
 		double result = Math.pow(ceiling, floor);
 		System.out.println("Result: " + result);
+		
+		displayNum(10);
+		
+		double length = 25.2;
+		double width = 3.0;
+		double area = multiply(length, width);
+		System.out.println("The area is: " + area);
+		double height = 2.0;
+		//methods are re-useable
+		double volume = multiply(area, height);
+		System.out.println("The volume is: " + volume);
 	}
 	//lets make a method that takes in a whole number
 	//and displays it to the user:
 	static void displayNum(int num) {
 		System.out.println("The number is: " + num);
 	}
+	//lets make a method that takes in two decimal numbers
+	//multiplies them and returns the result
+	static double multiply(double a, double b) {
+		double result;
+		result = a * b;		
+		return result;
+	}
+	//Exercise 1:
+	//lets make a method that converts a temp from C to F
+	//take in the temp in C (double)
+	//return the temp in F (double
+	//display the result from main
+	
+	//Exercise 2:
+	//Make a method that takes in a firstName and a lastName
+	//and displays the first and last name to the console
+	//with a space in between
+	//inputs "Josh" "Emery"
+	//should print out "Josh Emery"
+	
+	//Exercise 3:
+	//Write a method called hypotenuse
+	//takes in the two non hypotenuse sides of a triangle
+	//calculate and return the hypotenuse
+	//remember Math.pow() and Math.sqrt()
+	
+	//Exercise 4:
+	//Write a method called displayPayCheck that takes in a
+	//hoursWorked, payRate, taxRate
+	//Calculate netPay, taxAmount, grossPay
+	//Display the paycheck stub with all of these variables
+	
 }
