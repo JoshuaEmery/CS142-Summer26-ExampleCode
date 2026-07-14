@@ -30,6 +30,7 @@ public class MoreMethods {
 		//methods are re-useable
 		double volume = multiply(area, height);
 		System.out.println("The volume is: " + volume);
+		displayFullName("Josh", "Emery");
 	}
 	//lets make a method that takes in a whole number
 	//and displays it to the user:
@@ -48,6 +49,12 @@ public class MoreMethods {
 	//take in the temp in C (double)
 	//return the temp in F (double
 	//display the result from main
+	static double cToF(double cel) {
+		double f;
+		//calculate f making sure to avoid int division
+		f = cel * 9.0 / 5.0 + 32;
+		return f;
+	}
 	
 	//Exercise 2:
 	//Make a method that takes in a firstName and a lastName
@@ -55,6 +62,9 @@ public class MoreMethods {
 	//with a space in between
 	//inputs "Josh" "Emery"
 	//should print out "Josh Emery"
+	static void displayFullName(String firstName, String lastName) {
+		System.out.println(firstName + " " + lastName);
+	}
 	
 	//Exercise 3:
 	//Write a method called hypotenuse
@@ -67,5 +77,15 @@ public class MoreMethods {
 	//hoursWorked, payRate, taxRate
 	//Calculate netPay, taxAmount, grossPay
 	//Display the paycheck stub with all of these variables
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 }
