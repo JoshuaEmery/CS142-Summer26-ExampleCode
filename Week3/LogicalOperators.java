@@ -25,7 +25,8 @@ public class LogicalOperators {
 		//if have a statement using && || and i need the opposite of that statement
 		//I flip the operator
 		//De Morgans Law
-		//(x == 0 || y == 0) -> (x != 0 && y != 0)
+		//!(x == 0 || y == 0) = (x != 0 && y != 0)
+		//!(x == 0 && y == 0) = (x !=0 || y != 0)
 		
 		//1 create a variable named age, give it a value
 		//check the age variable and print you are eligible to vote when age >= 18
@@ -35,8 +36,9 @@ public class LogicalOperators {
 		//write a condition that checks if the number is in the range 1-20 (include 1 and 20)
 		//output that the number is in range or not
 		
-		//3: create a variable for a grade on an assignment 0-100 (include 0 and 100)
-		//check if that grade is valid or invalid. A grade is invalid if it is not in the range
+		//3: create a variable for a grade on an assignment 0-100 
+		// check if that grade is valid or invalid (include 0 and 100). 
+		// A grade is invalid if it is not in the range
 		//-5 should fail, 80 should pass, 110 should fail
 		
 		//4: x and y are coordinates on a cartesian plane. write a decision structure which
