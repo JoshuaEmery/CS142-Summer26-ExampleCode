@@ -57,11 +57,22 @@ public class LogicalOperators {
 		// check for the invalid state first
 		//-5 should fail, 80 should pass, 110 should fail
 		//return true if the grade is valid false otherwise
+		//isValid method
+		
 		
 		//4: x and y are coordinates on a cartesian plane. write a decision structure which
 		//determine what quadrant the pair lie in, also consider the point could be at origin
 		//or on the x / y axis
 		
+	}
+	static boolean isValid(double grade) {
+		if(grade < 0 || grade > 100) {
+			return false;
+		}
+		else {
+			//I know grade >= 0 && grade <= 100
+			return true;
+		}
 	}
 
 }
