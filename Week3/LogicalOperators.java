@@ -31,15 +31,32 @@ public class LogicalOperators {
 		//1 create a variable named age, give it a value
 		//check the age variable and print you are eligible to vote when age >= 18
 		//not eligible otherwise
+		int age = 17;
+		if(age >= 18) {
+			System.out.println("You are eligible to vote");
+		}
+		else {
+			System.out.println("You are not eligible to vote");
+		}
 		
 		//2: create a variable and give it a value
 		//write a condition that checks if the number is in the range 1-20 (include 1 and 20)
 		//output that the number is in range or not
 		
-		//3: create a variable for a grade on an assignment 0-100 
+		int value = 21;
+		if(value >= 1 && value <= 20) {
+			System.out.println("Value is in range");
+		}
+		else {
+			System.out.println("Value is not in range");
+		}
+		
+		//3: create a method that checks for a valid grade on an assignment 0-100 
 		// check if that grade is valid or invalid (include 0 and 100). 
 		// A grade is invalid if it is not in the range
+		// check for the invalid state first
 		//-5 should fail, 80 should pass, 110 should fail
+		//return true if the grade is valid false otherwise
 		
 		//4: x and y are coordinates on a cartesian plane. write a decision structure which
 		//determine what quadrant the pair lie in, also consider the point could be at origin
