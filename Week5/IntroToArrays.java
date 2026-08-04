@@ -53,6 +53,10 @@ public class IntroToArrays {
 			//lets print out both the index and the element
 			System.out.println("Index: " + i + " Element: " + daysWeek[i]);
 		}
+		System.out.println("====Calling our Array Methods====");
+		//Calling our array methods
+		int[] numbers = randomArray(20);
+		displayArray(numbers);
 		
 		
 	}
