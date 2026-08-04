@@ -1,3 +1,4 @@
+import java.util.Random;
 
 public class IntroToArrays {
 
@@ -42,12 +43,44 @@ public class IntroToArrays {
 			//lets print out both the index and the element
 			System.out.println("Index: " + i + " Element: " + daysWeek[i]);
 		}
+		//Copy paste and modify the loop so it prints out days of the week
+		//backwards
+		//Think about what values of i we want to get out of the loop
+		//We need i to start at 6
+		//decrease by 1 each iteration
+		//and include 0 but stop after 0
+		for(int i = daysWeek.length - 1; i >= 0; i--) {
+			//lets print out both the index and the element
+			System.out.println("Index: " + i + " Element: " + daysWeek[i]);
+		}
 		
 		
-		
-		
-		
-
 	}
+	//lets make a method that takes in an int[] and print out the index and
+	//the element
+	static void displayArray(int[] array) {
+		for (int i = 0; i < array.length; i++) {
+			System.out.println("Index: " + i + " Element: " + array[i]);
+		}
+	}
+	//lets make a method that takes in a SIZE and returns an int[] filled
+	//with SIZE random numbers 0-99
+	static int[] randomArray(int length) {
+		int[] result = new int[length];
+		Random rand = new Random();
+		//for loop down here
+		for(int i = 0; i < result.length; i++) {
+			result[i] = rand.nextInt(100);
+		}
+		return result;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
 
 }
