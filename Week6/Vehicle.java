@@ -59,6 +59,26 @@ public class Vehicle {
 		}
 		this.year = year;
 	}
+	//customize the behavior of the toString method
+	//toString is the method that sysout uses to display your object
+	//overriding the toString method
+
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return "Year: " + year + " Make: " + make + " Model: " 
+				+ model + " Price: " + price;
+	}
+	
+	//A static method is a method which is accessible without creating an instance
+	//of the vehicle.
+	//You dont have to Vehicle vehicle = new Vehicle() to access this method
+	static String testStatic() {
+		//When you are inside of a static method there is no instance of vehicle to access
+		//There is no this keyword
+		//You dont have access to any of the fields
+		return "This is a static method";
+	}
 	
 	
 	
