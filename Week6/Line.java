@@ -29,6 +29,8 @@ public class Line {
 	//Getters and setters - you can either return the whole object from getters
 	//or return the fields (primitives)
 	//Here I am returning the points
+	//Since point is an object if I expose the whole point, then it can be
+	//changed using the setter functions within point
 	public Point getP1() {
 		return p1;
 	}
@@ -36,7 +38,21 @@ public class Line {
 	public Point getP2() {
 		return p2;
 	}
-
+	//If we are doing containment by composition (POINT lives and dies inside of line)
+	//We are exposing the primitives, there is no way to change the primitives without
+	//a setter function
+	public double getX1() {
+		return p1.getX();
+	}
+	public double getY1() {
+		return p1.getY();
+	}
+	public double getX2() {
+		return p2.getX();
+	}
+	public double getY2() {
+		return p2.getY();
+	}
 	@Override
 	public String toString() {
 		return "Line[" + p1 + " => " + p2 +"]";
