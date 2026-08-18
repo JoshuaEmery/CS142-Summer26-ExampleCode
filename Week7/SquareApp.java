@@ -16,9 +16,9 @@ public class SquareApp {
 		squares[1] = rect;
 		squares[2] = box;
 		displaySquares(squares);
-		System.out.println("Sqaure area: " + sq.area());
-		System.out.println("Rectangle area: " + rect.area());
-		System.out.println("Box area: " + box.area());
+//		System.out.println("Sqaure area: " + sq.area());
+//		System.out.println("Rectangle area: " + rect.area());
+//		System.out.println("Box area: " + box.area());
 	}
 	//If I make a method that takes in a Square (base class) as a parameter
 	//I can pass any of these objects to it
@@ -30,8 +30,22 @@ public class SquareApp {
 		for (int i = 0; i < squares.length; i++) {
 			System.out.println("Length: " + squares[i].getLength());
 			//We dont have access to width by default
-			//System.out.println("Width: " + squares[i].);
+			//If we want to get access to width, we first have to verify
+			//That the current square is a rectangle
+			if(squares[i] instanceof Rectangle) {
+				//Inside of here I know I have a rectangle
+				//Cast the sqaure to a rectangle
+				Rectangle rect = (Rectangle)squares[i];
+				System.out.println("Width: " + rect.getWidth());
+			}
+			if(squares[i] instanceof Box) {
+				//Cast the sqaure to box
+				Box box = (Box)squares[i];
+				System.out.println("Height: " + box.getHeight());
+				System.out.println("Volume: " + box.volume());
+			}
 			System.out.println("Area: " + squares[i].area());
+			System.out.println("----------------------------");
 		}
 	}
 
