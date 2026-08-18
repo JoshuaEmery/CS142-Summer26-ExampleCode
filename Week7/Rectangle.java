@@ -20,6 +20,20 @@ public class Rectangle extends Square{
 	public void setWidth(double width) {
 		this.width = width;
 	}
+	//Area is calculated differently in rectangle than in square
+	@Override
+	public double area() {
+		// We do not have direct access to the length field
+		// we must use the getter
+		return this.getLength() * width;
+	}
+
+	@Override
+	public String toString() {
+		return "Rectangle [width=" + width + ", length=" + this.getLength() + 
+				", area()=" + area() + "]";
+	}
+	
 	
 	
 	
