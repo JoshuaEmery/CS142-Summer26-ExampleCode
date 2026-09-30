@@ -31,6 +31,18 @@ public class MathOperations {
 		//2 Mult, Div, Mod
 		//3 Add Subtract
 		//Assignment is always last
+		//Order of operations can impact whether integer division occurs or not
+		int a = (2 + 3) * 4;
+		
+		double b = 9 / 2 + 3
+				
+		double c = 9.0 / 2 + 3;
+
+		double d = 7 / 2 * 2.0;
+
+		double e = (7 / 2) + 7 / 2.0;
+		
+		int f = (8 + 4) / (3 - 1) * 5 % 7;
 		
 		//Use a current value of a variable to calculate a new value
 		//for the same variable
